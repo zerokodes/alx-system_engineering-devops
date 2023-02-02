@@ -1,1 +1,2 @@
-dliuhadub,dhb,dsb,kbd,ksabd,sbd,
+#!/usr/bin/env ruby
+puts ARGV[0].scan(/hb?t?n/).join
