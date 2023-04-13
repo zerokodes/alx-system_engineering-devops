@@ -55,5 +55,5 @@ backend letsencrypt-backend
 backend www-backend
         balance roundrobin
         redirect scheme https if !{ ssl_fc }
-        server 9845-web-01 3.235.171.76:80 check
-        server 9845-web-02 34.236.134.42:80 check
+        server 135542-web-01 54.164.164.249 check
+        server 135542-web-02 52.87.221.2 check
